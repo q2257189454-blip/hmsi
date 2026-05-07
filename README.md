@@ -1,6 +1,6 @@
 # HMSI Web 交互原型
 
-美团商赛 HMSI 产品展示原型，使用原生 HTML/CSS/JS 实现，可直接通过 GitHub Pages 访问。
+美团商赛 HMSI 产品展示原型，使用原生 HTML/CSS/JS 实现。
 
 ## 页面结构
 
@@ -20,8 +20,10 @@
 
 ## 访问链接
 
-GitHub Pages 发布后访问：
+GitHub Pages 启用后访问：
 
 ```text
 https://q2257189454-blip.github.io/hmsi/
 ```
+
+首次启用方式：进入仓库 `Settings` → `Pages`，选择 `Deploy from a branch`，Branch 选择 `main`，目录选择 `/ (root)`，保存即可。
