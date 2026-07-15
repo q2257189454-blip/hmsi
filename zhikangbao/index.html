@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0c2f67" />
+    <link rel="icon" href="data:," />
+    <title>智康保｜脑中风康复险精算经营 Agent</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#mainContent">跳到主要内容</a>
+    <svg class="svg-sprite" aria-hidden="true">
+      <defs>
+        <symbol id="i-overview" viewBox="0 0 24 24"><path d="M4 19V9m5 10V5m5 14v-7m5 7V3M3 21h18"/></symbol>
+        <symbol id="i-design" viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6zM9 11h6M9 15h6M15 3v4h4"/></symbol>
+        <symbol id="i-simulate" viewBox="0 0 24 24"><path d="M9 3h6m-5 0v5l-5 9a3 3 0 0 0 2.6 4h8.8A3 3 0 0 0 19 17l-5-9V3M8 15h8"/></symbol>
+        <symbol id="i-risk" viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.2c0 4.6 3.1 8 7.5 9.8 4.4-1.8 7.5-5.2 7.5-9.8V6zM9 12l2 2 4-5"/></symbol>
+        <symbol id="i-rehab" viewBox="0 0 24 24"><path d="M20 8.5c0 5-8 11-8 11s-8-6-8-11A4.5 4.5 0 0 1 12 5.7 4.5 4.5 0 0 1 20 8.5ZM9 11h6m-3-3v6"/></symbol>
+        <symbol id="i-report" viewBox="0 0 24 24"><path d="M5 3h14v18H5zM8 16v-3m4 3V8m4 8v-5M8 6h5"/></symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+        <symbol id="i-info" viewBox="0 0 24 24"><path d="M12 11v6m0-10h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></symbol>
+        <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 7v5l3 2m6-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></symbol>
+        <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 7h18s-3 0-3-7M10 19h4"/></symbol>
+        <symbol id="i-human" viewBox="0 0 24 24"><path d="M12 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM5 20a7 7 0 0 1 14 0"/></symbol>
+        <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.5 5.5L19 10l-5.5 1.5L12 17l-1.5-5.5L5 10l5.5-1.5ZM19 17l.7 2.3L22 20l-2.3.7L19 23l-.7-2.3L16 20l2.3-.7Z"/></symbol>
+        <symbol id="i-database" viewBox="0 0 24 24"><path d="M4 6c0 2 3.6 3 8 3s8-1 8-3-3.6-3-8-3-8 1-8 3Zm0 0v6c0 2 3.6 3 8 3s8-1 8-3V6m0 6v6c0 2-3.6 3-8 3s-8-1-8-3v-6"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      </defs>
+    </svg>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="产品导航">
+        <button class="brand" data-action="navigate" data-page="overview" aria-label="返回经营总览">
+          <span class="brand-shield"><span>脑</span></span>
+          <span class="brand-copy"><strong>智康保</strong><small>精算经营 Agent</small></span>
+        </button>
+        <nav class="nav-list" aria-label="六大功能">
+          <button class="nav-item active" data-page="overview"><svg><use href="#i-overview"/></svg><span>经营总览</span><small>看经营</small></button>
+          <button class="nav-item" data-page="design"><svg><use href="#i-design"/></svg><span>方案设计</span><small>定方案</small></button>
+          <button class="nav-item" data-page="simulate"><svg><use href="#i-simulate"/></svg><span>定价仿真</span><small>算成本</small></button>
+          <button class="nav-item" data-page="risk"><svg><use href="#i-risk"/></svg><span>风险控制</span><small>控风险</small></button>
+          <button class="nav-item" data-page="rehab"><svg><use href="#i-rehab"/></svg><span>康复运营</span><small>做运营</small></button>
+          <button class="nav-item" data-page="report"><svg><use href="#i-report"/></svg><span>经营报告</span><small>出报告</small></button>
+        </nav>
+        <div class="model-stamp"><span class="live-dot"></span><div><small>当前模型</small><strong>stroke-rehab-2026.1</strong></div></div>
+      </aside>
+
+      <section class="app-stage">
+        <header class="topbar">
+          <div class="product-lockup">
+            <button class="mobile-menu" data-action="menu" aria-label="展开导航"><svg><use href="#i-menu"/></svg></button>
+            <div><strong>脑中风康复险 V2.0</strong><span class="status-tag attention">待产品评审</span></div>
+          </div>
+          <div class="topbar-meta">
+            <span class="data-version">数据版本 <strong>2026-Q2</strong></span>
+            <label class="role-select"><span>当前角色</span><select id="roleSelect"><option>产品经理</option><option>精算人员</option><option>核保人员</option><option>理赔人员</option><option>康复管理</option></select></label>
+            <button class="task-launch" data-action="toggle-tasks" aria-expanded="false" aria-controls="taskCenter" aria-label="打开待办中心，3项待办"><svg><use href="#i-bell"/></svg><b>3</b></button>
+          </div>
+          <aside class="task-center" id="taskCenter" aria-label="待办中心" hidden>
+            <header><div><small>跨角色协作</small><h2>今日待办</h2></div><button data-action="close-tasks" aria-label="关闭待办中心"><svg><use href="#i-close"/></svg></button></header>
+            <button data-action="navigate" data-page="risk"><span class="task-icon danger"><svg><use href="#i-risk"/></svg></span><div><strong>3件第三方复核</strong><small>理赔人员 · 今日到期</small></div><svg><use href="#i-arrow"/></svg></button>
+            <button data-action="navigate" data-page="rehab"><span class="task-icon attention"><svg><use href="#i-rehab"/></svg></span><div><strong>9件高风险失访</strong><small>康复管理 · 需要跟进</small></div><svg><use href="#i-arrow"/></svg></button>
+            <button data-action="navigate" data-page="report"><span class="task-icon info"><svg><use href="#i-report"/></svg></span><div><strong>产品方案待评审</strong><small>产品经理 · V1.0</small></div><svg><use href="#i-arrow"/></svg></button>
+            <p>Agent仅生成任务草稿，承保、理赔与停赔结论由专业人员确认。</p>
+          </aside>
+        </header>
+        <main id="mainContent" tabindex="-1" aria-live="polite"></main>
+      </section>
+    </div>
+    <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
